@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(144, 248, 153), rgb(147, 185, 207));
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(219, 159, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 100px;
+  }
+  
+  #card {
+    width: 300px;
+    height: 200px;
+    
+    border-radius: 35px;
+    box-shadow: 0 0 20px rgba(248, 182, 235, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    animation: pulseCard 2s infinite;
+  }
+  
+  
+  #clock {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:10px;
+    color: #b7f1e6;
+    text-shadow: 0 0 10px #00ffcc;
+    animation: glowClock 1.5s infinite alternate;
+  }
+  
+  
+  #message {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background: rgba(247, 52, 9, 0.1);
+    border: 1px solid #1abbd433;
+    border-radius: 50px;
+    box-shadow:#0404f0 ;
+    animation: fadeInMessage 3s ease-in-out;
+  }
+  #clock {
+    font-size: 3rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #2be2e9;
+    animation: glowClock 1.5s infinite alternate;
+  }
+  
+  @keyframes glowClock {
+    from { text-shadow: 0 0 10px #baf31b; }
+    to { text-shadow: 0 0 20px #e7351e; }
+  }
+ 
+  
+  
+  @keyframes pulseCard {
+    0% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 0, 13, 0.6); }
+    50% { transform: scale(1.05); box-shadow: 0 0 30px rgba(228, 243, 19, 0.8); }
+    100% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 0, 13, 0.6); }
+  }
+  
+  @keyframes glowClock {
+    from { text-shadow: 0 0 10px #c41698; }
+    to { text-shadow: 0 0 20px #6200ff; }
+  }
+  body {
+    color: darkcyan;
+  }
+  
+  div {
+    background-color: currentcolor;
+  }
+  
+  div {
+    width: 300px;
+    border: 15px solid rgb(212, 224, 159);
+    padding: 50px;
+    margin: 20px;
+  }
+  body {
+    background-color: rgb(126, 166, 192);
+    color: blue;
+  }
+  
+  h1 {
+    background-color: black;
+    color: rgb(230, 173, 126);
+  }
+  
+  div {
+    background-color: rgb(37, 37, 131);
+    color: white;
+  }
+  h1 {
+    color: rgb(252, 155, 90);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  #grad {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  }
